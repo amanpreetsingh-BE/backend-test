@@ -28,8 +28,9 @@ jobs:
           key: ${{ secrets.KEY }}
           script: |
             sudo su
-            rm -rf backend-test
-            git clone git@github.com:amanpreetsingh-BE/backend-test.git
-            cd backend-test
-            sudo docker build -t fastapi-test:lastest .
-            sudo docker run -p 8000:8000 fastapi-test:latest
+            whoami
+            #rm -rf backend-test
+            #git clone git@github.com:amanpreetsingh-BE/backend-test.git
+            #cd backend-test
+            #sudo docker build -t fastapi-test:lastest .
+            #sudo docker run -p 8000:8000 fastapi-test:latest
