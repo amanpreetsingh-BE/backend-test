@@ -31,4 +31,5 @@ jobs:
             rm -rf backend-test
             git clone https://github.com/amanpreetsingh-BE/backend-test.git
             cd backend-test
-            sudo docker-compose up -d
+            sudo docker-compose down
+            sudo docker-compose up --build -d
