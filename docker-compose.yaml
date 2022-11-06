@@ -1,7 +1,9 @@
 version: "3"
 
 services:
-  backend-test:
-    build: .
+  api:
+    build: ./
+    restart: always
+    container_name: api_container
     ports:
       - 8000:8000

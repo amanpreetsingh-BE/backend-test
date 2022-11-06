@@ -11,7 +11,7 @@ async def root():
 async def add(num1: int, num2: int):
     """Add two numbers together"""
 
-    total = num1 + num2
+    total = num1 + num2 + 32
     return {"total": total}
 
 if __name__ == '__main__':
