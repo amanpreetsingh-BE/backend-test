@@ -32,6 +32,3 @@ jobs:
             git clone https://github.com/amanpreetsingh-BE/backend-test.git
             cd backend-test
             sudo docker-compose up -d
-            #sudo docker build -t fastapi-test:latest .
-            #sudo docker container ls
-            #sudo docker run -p 8000:8000 fastapi-test:latest 
